@@ -114,22 +114,22 @@ ul li a:hover {
 #botao {
   width: 64px;
 }
-  button {
+
+.litgh #botao button {
+  animation: slide 0.4s forwards;
+}
+#botao button {
   width: 32px;
   height: 32px;
   border-radius: 50%;
   border: 0;
-  background: var(--switch-bg-url) no-repeat center;
+  background: white var(--switch-bg-url) no-repeat center;
   position: absolute;
   z-index: 1;
   top: -20%;
-  right: 50.2%;
-  animation: volta 0.2s;
+  left: -1%;
+  animation: volta 0.4s;
 }
-.litgh button {
-  animation: slide 0.4s forwards;
-}
-
 #botao span {
   display: block;
   box-sizing: border-box;
@@ -150,7 +150,7 @@ ul li a:hover {
 
 @keyframes slide {
   from {
-    left: 0;
+    left: -1%;
   }
   to {
     left: 52%;
@@ -158,9 +158,9 @@ ul li a:hover {
 }
 @keyframes volta {
   from {
-    left: 0%;
+    left: 52%;
   }
   to {
-    left: 5%;
+    left: -1%;
   }
 }
