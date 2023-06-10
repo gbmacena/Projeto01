@@ -130,6 +130,9 @@ ul li a:hover {
   left: -1%;
   animation: volta 0.4s;
 }
+#botao button:hover{
+  outline: 8px solid var(--hightligh-color-hover);
+}
 #botao span {
   display: block;
   box-sizing: border-box;
