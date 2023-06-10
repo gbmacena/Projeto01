@@ -37,7 +37,8 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   padding: 0 24px;
   text-align: center;
   padding-top: 45px;
@@ -120,15 +121,15 @@ ul li a:hover {
   background: white var(--switch-bg-url) no-repeat center;
   position: absolute;
   z-index: 1;
-  top: 32%;
-  right: 50%;
+  top: -20%;
+  right: 50.2%;
 }
 .litgh button {
-  left: 50.2%;
+  left: 52%;
   right: initial;
 }
 
-#switch span {
+#botao span {
   display: block;
   box-sizing: border-box;
   width: 64px;
