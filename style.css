@@ -40,7 +40,6 @@ body * {
   width: 100%;
   max-width: 588px;
   padding: 0 24px;
-  text-align: center;
   padding-top: 45px;
 }
 
@@ -53,7 +52,9 @@ div p {
   font-weight: 500;
   line-height: 24px;
   color: var(--text-color);
+  padding-top: 8px;
   padding-bottom: 24px;
+  text-align: center;
 }
 
 ul {
@@ -84,9 +85,9 @@ ul li a:hover {
 }
 
 #social {
+  width: 250px;
   display: flex;
   padding-top: 20px;
-  gap: 16px;
   font-size: 20px;
 }
 #final {
@@ -141,6 +142,8 @@ ul li a:hover {
   margin-bottom: 24px;
 }
 #bordaimg img {
+  display: block;
   border: 1px solid var(--borda-img);
   border-radius: 50%;
+  text-align: center;
 }
