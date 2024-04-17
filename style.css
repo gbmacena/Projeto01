@@ -17,17 +17,13 @@
 
 .litgh {
   --text-color: black;
-  --bg-url: url(./assets/bg-mobile-litgh.jpg);
+  --bg-url: url(./assets/bg-mobile-light.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --hightligh-color-hover: rgba(0, 0, 0, 0.1);
   --switch-bg-url: url(./assets/sol.svg);
   --borda-img: black;
-}
-
-body {
-  background: var(--bg-url) no-repeat top center / cover;
 }
 
 body * {
@@ -37,10 +33,15 @@ body * {
 }
 
 #container {
+  height: 100vh;
   width: 100%;
-  max-width: 588px;
   padding: 0 24px;
   padding-top: 45px;
+  background-image: var(--bg-url);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
 }
 
 #profile img {
